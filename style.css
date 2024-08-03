@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     background-color: rgb(238, 244, 245);
 }
 
@@ -51,9 +51,11 @@ body {
     color: #000000;
     background-color: rgb(194, 228, 246);
 }
+
 .header ul li a:hover {
     color: rgb(26, 99, 188);
 }
+
 .home {
     display: flex;
     align-items: center;
@@ -61,6 +63,7 @@ body {
     margin-top: 150px;
     position: relative;
 }
+
 .description {
     width: 700px;
     height: 350px;
@@ -69,41 +72,49 @@ body {
     background-color: #fff;
     border-radius: 40px;
     box-shadow: 10px 10px 20px rgb(161, 198, 244);
-    overflow: hidden; 
+    overflow: hidden;
 }
-.description>h1, h2, span, h3 {
+
+.description > h1, h2, span, h3 {
     margin-left: 40px;
     margin-top: 30px;
     background-color: #fff;
 }
-.description>h1 {
+
+.description > h1 {
     color: rgb(26, 99, 188);
     font-size: 40px;
     margin-top: 5px;
 }
-.description>h2 {
+
+.description > h2 {
     font-size: 30px;
 }
-.description>h3 {
+
+.description > h3 {
     font-size: 30px;
     font-weight: 400;
     margin-top: 9px;
 }
-.description>span, h4 {
+
+.description > span, h4 {
     margin-top: 10px;
     color: rgb(26, 99, 188);
     font-size: 25px;
     font-weight: 500;
     background-color: #fff;
 }
+
 .media {
     background-color: #fff;
     margin-top: 30px;
 }
+
 .media i {
     background-color: #fff;
     border-radius: 50%;
 }
+
 .media a {
     display: inline-flex;
     justify-content: center;
@@ -119,13 +130,15 @@ body {
     margin-left: 50px;
     background-color: #fff;
 }
+
 .media a:hover {
     background-color: rgb(26, 99, 188);
     color: black;
     box-shadow: 0 0 20px rgb(26, 99, 188);
     background-color: #fff;
 }
-.imagesection>img {
+
+.imagesection > img {
     height: 500px;
     margin-right: 50px;
 }
@@ -139,9 +152,11 @@ body {
     border-radius: 50px;
     margin: 10px auto;
 }
-.word, .sideheading>h1 {
+
+.word, .sideheading > h1 {
     background-color: rgb(199, 230, 247);
 }
+
 .word {
     color: #000000;
 }
@@ -155,17 +170,19 @@ body {
     border: 20px 20px;
     border-radius: 50px;
 }
-.desc>h5 {
+
+.desc > h5 {
     margin-left: 2px;
     color: rgb(26, 99, 188);
     padding-bottom: 10px;
     font-size: 25px;
 }
+
 .desc p {
     padding-top: 20px;
     color: #000000;
-    font-size: 17px; 
-    font-weight: 400; 
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .grid-container {
@@ -175,8 +192,8 @@ body {
     padding: 80px;
     grid-gap: 10px;
     margin: 0px 20px;
-    
 }
+
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -186,7 +203,8 @@ body {
     text-align: center;
     margin-bottom: 50px;
 }
-.grid-item>p {
+
+.grid-item > p {
     font-size: 15px;
     background-color: #fff;
     margin-top: 20px;
@@ -195,31 +213,35 @@ body {
     font-weight: 500;
     font-style: italic;
 }
+
 .grid-item:hover {
     box-shadow: 0 0 50px rgb(161, 198, 244);
     background-color: #fff;
 }
-.grid-item>a{
-    
+
+.grid-item > a {
     font-size: 50px;
     text-decoration: none;
     background-color: #fff;
     align-items: center;
-    
 }
+
 .skill-list {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     margin: 30px 30px;
     text-align: center;
 }
+
 h5 {
     font-size: 20px;
 }
-.skill-list>div>i {
+
+.skill-list > div > i {
     font-size: 80px;
 }
-.skill-list>div {
+
+.skill-list > div {
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -243,7 +265,7 @@ h5 {
     left: 0;
     width: 14px;
     height: 14px;
-    background:rgb(26, 99, 188);
+    background: rgb(26, 99, 188);
     border-radius: 50%;
 }
 
@@ -253,7 +275,7 @@ h5 {
     left: -90px;
     width: 80px;
     font-size: 14px;
-    color:rgb(26, 99, 188);
+    color: rgb(26, 99, 188);
     text-align: right;
 }
 
@@ -279,73 +301,79 @@ h5 {
     font-weight: 500;
     font-style: italic;
 }
-.grid{
+
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.contact-form form{
+
+.contact-form form {
     position: relative;
 }
-.contact-form form input,form textarea{
-    border:none;
-    outline:none;
-    width:80%;
+
+.contact-form form input, form textarea {
+    border: none;
+    outline: none;
+    width: 80%;
     padding: 18px;
-    background:  rgb(219, 238, 249);
-    color:rgb(8, 8, 8);
+    background: rgb(219, 238, 249);
+    color: rgb(8, 8, 8);
     font-size: 1rem;
     font-weight: 600;
-    margin-bottom:0.5rem;
-    border-radius:2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 2rem;
     margin: 20px 50px;
 }
-.contact-form textarea{
-    resize:none;
+
+.contact-form textarea {
+    resize: none;
     height: 220px;
 }
-::placeholder{
+
+::placeholder {
     color: rgb(91, 88, 88);
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
-.image>img{
+
+.image > img {
     height: 600px;
     margin-left: 50px;
 }
 
-.b{
+.b {
     margin-left: 50px;
 }
 
-.button{
-  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
-  border-radius: .5rem;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  display: flex;
-  font-size: 16px;
-  justify-content: center;
-  padding: 1rem 1.75rem;
-  text-decoration: none;
-  width: 50%;
-  border: 0;
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+.button {
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    width: 50%;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 .button:hover {
-  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
 }
 
 @media (min-width: 768px) {
-  .button{
-    padding: 1rem 2rem;
-  }
+    .button {
+        padding: 1rem 2rem;
+    }
 }
 
-.footer{
+.footer {
     position: relative;
     margin-top: 50px;
     left: 0;
@@ -353,4 +381,107 @@ h5 {
     width: 100%;
     background-color: rgb(199, 230, 247);
     padding: 10px;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1024px) {
+    .home {
+        flex-direction: column;
+    }
+    .description {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .imagesection > img {
+        height: 300px;
+        margin: 0 auto;
+    }
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+    .skill-list {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 5px 5px;
+        width: calc(100% - 20px);
+    }
+    .header .name {
+        font-size: 20px;
+    }
+    .header ul li {
+        padding: 5px;
+    }
+    .header ul li a {
+        font-size: 16px;
+    }
+    .home {
+        flex-direction: column;
+    }
+    .description {
+        width: 100%;
+        margin: 0 20px;
+    }
+    .imagesection > img {
+        height: 250px;
+        margin: 0 auto;
+    }
+    .grid-container {
+        grid-template-columns: auto;
+    }
+    .skill-list {
+        grid-template-columns: auto auto;
+    }
+    .timeline {
+        padding: 10px 0;
+    }
+    .timeline-item {
+        padding-left: 40px;
+    }
+    .timeline-date {
+        left: -60px;
+    }
+    .timeline-content {
+        padding: 15px;
+    }
+    .contact-form form input, form textarea {
+        width: 90%;
+        margin: 20px 20px;
+    }
+    .footer {
+        text-align: center;
+    }
+    .button {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header .name {
+        margin-left: 10px;
+    }
+    .header ul {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+    .header ul li {
+        margin-bottom: 5px;
+    }
+    .skill-list {
+        grid-template-columns: auto;
+    }
+    .contact-form form input, form textarea {
+        width: 90%;
+        margin: 20px 20px;
+    }
 }
